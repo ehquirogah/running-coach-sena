@@ -1,0 +1,516 @@
+{
+  "node": {
+    "409cd7e199a583dfa4a9fc152bad0a425d952b5d76": {
+      "workers": {
+        "app/(admin)/usuarios/page": {
+          "moduleId": 80115,
+          "async": false,
+          "exportedName": "toggleUsuarioActivo",
+          "filename": "actions/usuarioActions.ts"
+        }
+      },
+      "filename": "actions/usuarioActions.ts",
+      "exportedName": "toggleUsuarioActivo"
+    },
+    "40ffcf0be31552ebb48518fe83dd01a2b8f8431e2d": {
+      "workers": {
+        "app/(admin)/usuarios/page": {
+          "moduleId": 80115,
+          "async": false,
+          "exportedName": "registrarUsuario",
+          "filename": "actions/usuarioActions.ts"
+        },
+        "app/(auth)/registro/page": {
+          "moduleId": 31828,
+          "async": false,
+          "exportedName": "registrarUsuario",
+          "filename": "actions/usuarioActions.ts"
+        }
+      },
+      "filename": "actions/usuarioActions.ts",
+      "exportedName": "registrarUsuario"
+    },
+    "6097af4cd7267f15e8b78b06af2767a154d34123ea": {
+      "workers": {
+        "app/(admin)/usuarios/page": {
+          "moduleId": 80115,
+          "async": false,
+          "exportedName": "obtenerUsuariosPaginados",
+          "filename": "actions/usuarioActions.ts"
+        }
+      },
+      "filename": "actions/usuarioActions.ts",
+      "exportedName": "obtenerUsuariosPaginados"
+    },
+    "00082898f8cc4ad244cc38d8955ddb460a540c0beb": {
+      "workers": {
+        "app/(atleta)/mi-plan/page": {
+          "moduleId": 24545,
+          "async": false,
+          "exportedName": "obtenerPlanActivoAtleta",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(atleta)/sesiones/nueva/page": {
+          "moduleId": 75142,
+          "async": false,
+          "exportedName": "obtenerPlanActivoAtleta",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/atletas/[id]/page": {
+          "moduleId": 83488,
+          "async": false,
+          "exportedName": "obtenerPlanActivoAtleta",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/atletas/page": {
+          "moduleId": 82176,
+          "async": false,
+          "exportedName": "obtenerPlanActivoAtleta",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/planes/page": {
+          "moduleId": 75709,
+          "async": false,
+          "exportedName": "obtenerPlanActivoAtleta",
+          "filename": "actions/planActions.ts"
+        }
+      },
+      "filename": "actions/planActions.ts",
+      "exportedName": "obtenerPlanActivoAtleta"
+    },
+    "0022d8f41561d68fe83995042efe57580d2d29bf2d": {
+      "workers": {
+        "app/(atleta)/mi-plan/page": {
+          "moduleId": 24545,
+          "async": false,
+          "exportedName": "obtenerPlanesDeEntrenador",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/atletas/[id]/page": {
+          "moduleId": 83488,
+          "async": false,
+          "exportedName": "obtenerPlanesDeEntrenador",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/atletas/page": {
+          "moduleId": 82176,
+          "async": false,
+          "exportedName": "obtenerPlanesDeEntrenador",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/planes/page": {
+          "moduleId": 75709,
+          "async": false,
+          "exportedName": "obtenerPlanesDeEntrenador",
+          "filename": "actions/planActions.ts"
+        }
+      },
+      "filename": "actions/planActions.ts",
+      "exportedName": "obtenerPlanesDeEntrenador"
+    },
+    "009423242b572b28768e084d8ef78006fcaaa55f22": {
+      "workers": {
+        "app/(atleta)/mi-plan/page": {
+          "moduleId": 24545,
+          "async": false,
+          "exportedName": "obtenerAtletas",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/atletas/[id]/page": {
+          "moduleId": 83488,
+          "async": false,
+          "exportedName": "obtenerAtletas",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/atletas/page": {
+          "moduleId": 82176,
+          "async": false,
+          "exportedName": "obtenerAtletas",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/planes/nuevo/page": {
+          "moduleId": 24749,
+          "async": false,
+          "exportedName": "obtenerAtletas",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/planes/page": {
+          "moduleId": 75709,
+          "async": false,
+          "exportedName": "obtenerAtletas",
+          "filename": "actions/planActions.ts"
+        }
+      },
+      "filename": "actions/planActions.ts",
+      "exportedName": "obtenerAtletas"
+    },
+    "00d7d32c857043795d9b7ab1816d23ef4e38ce3523": {
+      "workers": {
+        "app/(atleta)/mi-plan/page": {
+          "moduleId": 24545,
+          "async": false,
+          "exportedName": "obtenerAtletasAsignados",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/atletas/[id]/page": {
+          "moduleId": 83488,
+          "async": false,
+          "exportedName": "obtenerAtletasAsignados",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/atletas/page": {
+          "moduleId": 82176,
+          "async": false,
+          "exportedName": "obtenerAtletasAsignados",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/planes/page": {
+          "moduleId": 75709,
+          "async": false,
+          "exportedName": "obtenerAtletasAsignados",
+          "filename": "actions/planActions.ts"
+        }
+      },
+      "filename": "actions/planActions.ts",
+      "exportedName": "obtenerAtletasAsignados"
+    },
+    "4063bbaf75c839ae4a3a9538987a070beed12941c4": {
+      "workers": {
+        "app/(atleta)/mi-plan/page": {
+          "moduleId": 24545,
+          "async": false,
+          "exportedName": "obtenerDetalleAtleta",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/atletas/[id]/page": {
+          "moduleId": 83488,
+          "async": false,
+          "exportedName": "obtenerDetalleAtleta",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/atletas/page": {
+          "moduleId": 82176,
+          "async": false,
+          "exportedName": "obtenerDetalleAtleta",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/planes/page": {
+          "moduleId": 75709,
+          "async": false,
+          "exportedName": "obtenerDetalleAtleta",
+          "filename": "actions/planActions.ts"
+        }
+      },
+      "filename": "actions/planActions.ts",
+      "exportedName": "obtenerDetalleAtleta"
+    },
+    "40a9b7b55ec6bfee1efb7ccb578f66a8ed5798219b": {
+      "workers": {
+        "app/(atleta)/mi-plan/page": {
+          "moduleId": 24545,
+          "async": false,
+          "exportedName": "crearPlan",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/atletas/[id]/page": {
+          "moduleId": 83488,
+          "async": false,
+          "exportedName": "crearPlan",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/atletas/page": {
+          "moduleId": 82176,
+          "async": false,
+          "exportedName": "crearPlan",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/planes/nuevo/page": {
+          "moduleId": 24749,
+          "async": false,
+          "exportedName": "crearPlan",
+          "filename": "actions/planActions.ts"
+        },
+        "app/(entrenador)/planes/page": {
+          "moduleId": 75709,
+          "async": false,
+          "exportedName": "crearPlan",
+          "filename": "actions/planActions.ts"
+        }
+      },
+      "filename": "actions/planActions.ts",
+      "exportedName": "crearPlan"
+    },
+    "006c3b4ddae440f461d46688fba469aa9a75ad03e1": {
+      "workers": {
+        "app/(atleta)/rutinas/[id]/resultado/page": {
+          "moduleId": 68909,
+          "async": false,
+          "exportedName": "obtenerRutinasPlanActivoAtleta",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(atleta)/sesiones/nueva/page": {
+          "moduleId": 75142,
+          "async": false,
+          "exportedName": "obtenerRutinasPlanActivoAtleta",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/historial/page": {
+          "moduleId": 62807,
+          "async": false,
+          "exportedName": "obtenerRutinasPlanActivoAtleta",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/proyeccion/page": {
+          "moduleId": 5440,
+          "async": false,
+          "exportedName": "obtenerRutinasPlanActivoAtleta",
+          "filename": "actions/rutinaActions.ts"
+        }
+      },
+      "filename": "actions/rutinaActions.ts",
+      "exportedName": "obtenerRutinasPlanActivoAtleta"
+    },
+    "007566c716cd027f8d6b8b97f0a12c004152b38997": {
+      "workers": {
+        "app/(atleta)/rutinas/[id]/resultado/page": {
+          "moduleId": 68909,
+          "async": false,
+          "exportedName": "obtenerProyeccionEntrenador",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/historial/page": {
+          "moduleId": 62807,
+          "async": false,
+          "exportedName": "obtenerProyeccionEntrenador",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/proyeccion/page": {
+          "moduleId": 5440,
+          "async": false,
+          "exportedName": "obtenerProyeccionEntrenador",
+          "filename": "actions/rutinaActions.ts"
+        }
+      },
+      "filename": "actions/rutinaActions.ts",
+      "exportedName": "obtenerProyeccionEntrenador"
+    },
+    "007a17a79ad51e1a5cce068913642bfd18474af7d2": {
+      "workers": {
+        "app/(atleta)/rutinas/[id]/resultado/page": {
+          "moduleId": 68909,
+          "async": false,
+          "exportedName": "obtenerHistorialEntrenamientosEntrenador",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/historial/page": {
+          "moduleId": 62807,
+          "async": false,
+          "exportedName": "obtenerHistorialEntrenamientosEntrenador",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/proyeccion/page": {
+          "moduleId": 5440,
+          "async": false,
+          "exportedName": "obtenerHistorialEntrenamientosEntrenador",
+          "filename": "actions/rutinaActions.ts"
+        }
+      },
+      "filename": "actions/rutinaActions.ts",
+      "exportedName": "obtenerHistorialEntrenamientosEntrenador"
+    },
+    "4040432e1d254815331aec64ab2c111203bac99cbc": {
+      "workers": {
+        "app/(atleta)/rutinas/[id]/resultado/page": {
+          "moduleId": 68909,
+          "async": false,
+          "exportedName": "obtenerRutinasPorAtleta",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/historial/page": {
+          "moduleId": 62807,
+          "async": false,
+          "exportedName": "obtenerRutinasPorAtleta",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/proyeccion/page": {
+          "moduleId": 5440,
+          "async": false,
+          "exportedName": "obtenerRutinasPorAtleta",
+          "filename": "actions/rutinaActions.ts"
+        }
+      },
+      "filename": "actions/rutinaActions.ts",
+      "exportedName": "obtenerRutinasPorAtleta"
+    },
+    "406403d587cb6f8f75a6e0bf2ea9ca84bc8a1f5eab": {
+      "workers": {
+        "app/(atleta)/rutinas/[id]/resultado/page": {
+          "moduleId": 68909,
+          "async": false,
+          "exportedName": "retroalimentarRutina",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/atletas/[id]/page": {
+          "moduleId": 83488,
+          "async": false,
+          "exportedName": "retroalimentarRutina",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/historial/page": {
+          "moduleId": 62807,
+          "async": false,
+          "exportedName": "retroalimentarRutina",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/proyeccion/page": {
+          "moduleId": 5440,
+          "async": false,
+          "exportedName": "retroalimentarRutina",
+          "filename": "actions/rutinaActions.ts"
+        }
+      },
+      "filename": "actions/rutinaActions.ts",
+      "exportedName": "retroalimentarRutina"
+    },
+    "40877b91fad8a4b0098199db1348db0921bd13e52d": {
+      "workers": {
+        "app/(atleta)/rutinas/[id]/resultado/page": {
+          "moduleId": 68909,
+          "async": false,
+          "exportedName": "crearRutina",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/atletas/[id]/page": {
+          "moduleId": 83488,
+          "async": false,
+          "exportedName": "crearRutina",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/historial/page": {
+          "moduleId": 62807,
+          "async": false,
+          "exportedName": "crearRutina",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/proyeccion/page": {
+          "moduleId": 5440,
+          "async": false,
+          "exportedName": "crearRutina",
+          "filename": "actions/rutinaActions.ts"
+        }
+      },
+      "filename": "actions/rutinaActions.ts",
+      "exportedName": "crearRutina"
+    },
+    "40952924a2cf65b26174cff21837e5f448d135644e": {
+      "workers": {
+        "app/(atleta)/rutinas/[id]/resultado/page": {
+          "moduleId": 68909,
+          "async": false,
+          "exportedName": "obtenerRutinaAsignada",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/historial/page": {
+          "moduleId": 62807,
+          "async": false,
+          "exportedName": "obtenerRutinaAsignada",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/proyeccion/page": {
+          "moduleId": 5440,
+          "async": false,
+          "exportedName": "obtenerRutinaAsignada",
+          "filename": "actions/rutinaActions.ts"
+        }
+      },
+      "filename": "actions/rutinaActions.ts",
+      "exportedName": "obtenerRutinaAsignada"
+    },
+    "40c868ed63ad3341c33c8b9e93a6b59cb4e0216365": {
+      "workers": {
+        "app/(atleta)/rutinas/[id]/resultado/page": {
+          "moduleId": 68909,
+          "async": false,
+          "exportedName": "registrarResultadoRutina",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/historial/page": {
+          "moduleId": 62807,
+          "async": false,
+          "exportedName": "registrarResultadoRutina",
+          "filename": "actions/rutinaActions.ts"
+        },
+        "app/(entrenador)/proyeccion/page": {
+          "moduleId": 5440,
+          "async": false,
+          "exportedName": "registrarResultadoRutina",
+          "filename": "actions/rutinaActions.ts"
+        }
+      },
+      "filename": "actions/rutinaActions.ts",
+      "exportedName": "registrarResultadoRutina"
+    },
+    "00131d9d4719d00a50fc2c6fd1d9e1f4386bca3621": {
+      "workers": {
+        "app/(atleta)/sesiones/historial/page": {
+          "moduleId": 86953,
+          "async": false,
+          "exportedName": "obtenerResumenSesiones",
+          "filename": "actions/sesionActions.ts"
+        }
+      },
+      "filename": "actions/sesionActions.ts",
+      "exportedName": "obtenerResumenSesiones"
+    },
+    "40ec5df410deccbeab8b57dd737e023f01eaeebb0d": {
+      "workers": {
+        "app/(atleta)/sesiones/historial/page": {
+          "moduleId": 86953,
+          "async": false,
+          "exportedName": "registrarSesion",
+          "filename": "actions/sesionActions.ts"
+        },
+        "app/(atleta)/sesiones/nueva/page": {
+          "moduleId": 75142,
+          "async": false,
+          "exportedName": "registrarSesion",
+          "filename": "actions/sesionActions.ts"
+        }
+      },
+      "filename": "actions/sesionActions.ts",
+      "exportedName": "registrarSesion"
+    },
+    "60834e913107a86100d1e026d467be0b85603f097f": {
+      "workers": {
+        "app/(atleta)/sesiones/historial/page": {
+          "moduleId": 86953,
+          "async": false,
+          "exportedName": "obtenerHistorialSesiones",
+          "filename": "actions/sesionActions.ts"
+        }
+      },
+      "filename": "actions/sesionActions.ts",
+      "exportedName": "obtenerHistorialSesiones"
+    },
+    "70da867623a0994959fe94b7d9695d16ccb16feb19": {
+      "workers": {
+        "app/dashboard/atleta/page": {
+          "moduleId": 72022,
+          "async": false,
+          "exportedName": "obtenerReporte",
+          "filename": "actions/reporteActions.ts"
+        },
+        "app/reportes/[atletaId]/page": {
+          "moduleId": 47835,
+          "async": false,
+          "exportedName": "obtenerReporte",
+          "filename": "actions/reporteActions.ts"
+        }
+      },
+      "filename": "actions/reporteActions.ts",
+      "exportedName": "obtenerReporte"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "rfmNsNzA0P4byBmyUfbG9wA4jbCiQiRmjhEnmEF+U6s="
+}

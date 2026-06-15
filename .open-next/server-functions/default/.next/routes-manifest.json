@@ -1,0 +1,220 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "onMatchHeaders": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/api/auth/[...nextauth]",
+      "regex": "^/api/auth/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPnextauth": "nxtPnextauth"
+      },
+      "namedRegex": "^/api/auth/(?<nxtPnextauth>.+?)(?:/)?$"
+    },
+    {
+      "page": "/api/reportes/[atletaId]",
+      "regex": "^/api/reportes/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPatletaId": "nxtPatletaId"
+      },
+      "namedRegex": "^/api/reportes/(?<nxtPatletaId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/sesiones/atleta/[id]",
+      "regex": "^/api/sesiones/atleta/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/sesiones/atleta/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/atletas/[id]",
+      "regex": "^/atletas/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/atletas/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/reportes/[atletaId]",
+      "regex": "^/reportes/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPatletaId": "nxtPatletaId"
+      },
+      "namedRegex": "^/reportes/(?<nxtPatletaId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/rutinas/[id]/resultado",
+      "regex": "^/rutinas/([^/]+?)/resultado(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/rutinas/(?<nxtPid>[^/]+?)/resultado(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/planes",
+      "regex": "^/api/planes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/planes(?:/)?$"
+    },
+    {
+      "page": "/api/sesiones",
+      "regex": "^/api/sesiones(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sesiones(?:/)?$"
+    },
+    {
+      "page": "/api/usuarios",
+      "regex": "^/api/usuarios(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/usuarios(?:/)?$"
+    },
+    {
+      "page": "/atletas",
+      "regex": "^/atletas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/atletas(?:/)?$"
+    },
+    {
+      "page": "/dashboard/atleta",
+      "regex": "^/dashboard/atleta(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/atleta(?:/)?$"
+    },
+    {
+      "page": "/dashboard/entrenador",
+      "regex": "^/dashboard/entrenador(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/entrenador(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/historial",
+      "regex": "^/historial(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/historial(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/mi-plan",
+      "regex": "^/mi\\-plan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mi\\-plan(?:/)?$"
+    },
+    {
+      "page": "/no-autorizado",
+      "regex": "^/no\\-autorizado(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/no\\-autorizado(?:/)?$"
+    },
+    {
+      "page": "/planes",
+      "regex": "^/planes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/planes(?:/)?$"
+    },
+    {
+      "page": "/planes/nuevo",
+      "regex": "^/planes/nuevo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/planes/nuevo(?:/)?$"
+    },
+    {
+      "page": "/proyeccion",
+      "regex": "^/proyeccion(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/proyeccion(?:/)?$"
+    },
+    {
+      "page": "/registro",
+      "regex": "^/registro(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/registro(?:/)?$"
+    },
+    {
+      "page": "/sesiones/historial",
+      "regex": "^/sesiones/historial(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sesiones/historial(?:/)?$"
+    },
+    {
+      "page": "/sesiones/nueva",
+      "regex": "^/sesiones/nueva(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sesiones/nueva(?:/)?$"
+    },
+    {
+      "page": "/usuarios",
+      "regex": "^/usuarios(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/usuarios(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
